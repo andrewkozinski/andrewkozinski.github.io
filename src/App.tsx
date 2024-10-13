@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     //Load projects from the JSON in the GitHub repository
     loadProjects().catch(console.error);
-  }, [])
+  }, []);
   
 
   return (

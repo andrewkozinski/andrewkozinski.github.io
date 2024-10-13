@@ -1,0 +1,396 @@
+/* Default values
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+
+:root {
+  --gradient-right: #393e2b;
+  --gradient-left: rgb(71 78 52);
+  --gradient-background: rgb(53 58 39);
+  --gradient-background-right: rgb(194 253 51 / 0%);
+  --gradient-background-left: rgb(206 241 12 / 0%);
+  --color-showcase-header: rgb(62 69 44);
+  --gradient-showcase-header-left: rgb(83 92 60);
+  --btn-background: rgb(73 82 53);
+  --btn-background-hover: rgb(82 91 59);
+  --btn-outline: rgb(92 111 45);
+  --offline: #898989;
+}
+
+* {
+font-size: 100%;
+font-family: 'Motiva Sans';
+}
+
+.main-body {
+  /*background-color: #383c24;
+  background-image: linear-gradient(to-right, var(--gradient-left), var(--gradient-right));
+  */
+  
+  background-image: linear-gradient(#353a27, #383c24);
+  
+  max-width: 975px;
+  /*
+  min-height: 224px;
+  height: 900px;
+  */
+  
+  color: white;
+
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 45px;
+}
+
+header {
+/*Make fixed perhaps? I'll figure this out later
+Fixed may not work either because it'd mean the navbar would ALWAYS appear on the top of the screen
+Not really sure if I want that behavior, will look into more.
+*/
+/*background-color: #181c24;*/
+background-color: #222518;
+
+color: white;
+
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+
+display:flex;
+
+/*Original height*/
+/*height: 100px;*/
+height: 90px;
+/*padding-left: 470px;*/
+/*box-shadow: 0 2px 5px rgba(0,0,0,0.2); */
+
+}
+
+body {
+/*background-color: #282c34;
+*/
+background-color: #404434;
+
+margin-top: 90px;
+}
+
+.nav-links {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left:auto;
+margin-right: auto;
+width: 975px;
+max-width: 975px;
+height: 100%;
+top: 0;
+} 
+
+.nav-links li {
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+padding: 0 16px;
+text-decoration: none;
+font-family: arial;
+width: 125px;
+height: 100%;
+}
+
+.nav-links ul {
+display: flex;
+list-style: none;
+padding: 0;
+margin: 0;
+width: 100%;
+height: 100%;
+}
+
+.pfp-container {
+position: relative;
+top: 30px;
+left: 0px;
+}
+
+.top {
+position: relative;
+}
+
+.pfp {
+position: absolute;
+left: 15px;
+top: 32px;
+height: 170px;
+width: 185px;
+}
+
+.menu-item:hover {
+cursor: default;
+text-shadow: 1px 1px 2px #000000aa;
+color: #ffffff;
+font-weight: 600;
+background-color: #958831;
+}
+
+.menu-item:active {
+background-color: #505c44; /* Background color when hovered */
+color: #ffdd33;
+}
+
+.menu-item {
+color: #dcdedf;
+font-weight: 500;
+height: 100%;
+}
+
+.heading {
+display: flex;
+padding-bottom: 30px;
+gap: 10px;
+position: relative;
+}
+
+.user-info {
+padding-top: 60px;
+padding-left: 15px;
+}
+
+.user-info p {
+margin: 0;
+font-weight: 200;
+line-height: 30px;
+}
+
+.main-content {
+display: flex;
+gap: 10px;
+padding-top: 25px;
+}
+
+.left-content {
+width: 68%;
+/*background-color: black;*/
+}
+
+.right-content {
+width: 32%;
+border-radius: 3px;
+background-color: #282c1c;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#online-status {
+color: #57cbde;
+font-weight: 200;
+font-size: 20px;
+}
+
+.profile-label {
+font-family: "Motiva Sans";
+font-weight: 200;
+color: #9b9b9b;
+font-size: 24px;
+}
+
+.upper-tab {
+/*
+background-image:  linear-gradient(to-right, var(--gradient-background-left), var(--gradient-background-right));*/
+/*background-color: #40442c;
+*/
+display: flex;
+align-items: center;
+
+padding-left: 10px;
+
+font-size: 16px;
+height:40px;
+background-image: linear-gradient(90deg, var(--gradient-showcase-header-left) 0%, var(--color-showcase-header) 90%);
+
+white-space: nowrap;
+
+border-radius: 3px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+
+font-weight: 200;
+}
+
+.lower-tab {
+/*padding: 5px 10px 5px 10px;*/
+font-size: 16px;
+
+background-image: linear-gradient(90deg, #303820 0%, #303820 90%);
+
+white-space: nowrap;
+
+border-radius: 5px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+
+padding: 20px 10px 11px 10px;
+}
+
+.inner-tab {
+/*
+background: radial-gradient(farthest-side at top right, var(--gradient-right), transparent 500px), radial-gradient(farthest-corner at top left, var(--gradient-left), transparent 600px), radial-gradient(farthest-corner at bottom right, var(--gradient-background-right), transparent 500px), radial-gradient(farthest-corner at bottom left, var(--gradient-background-left), transparent 600px);*/
+background-color: rgba(0, 0, 0, 0.3);
+
+font-size: 13px;
+border-radius: 5px;
+min-height:35px;
+margin-bottom: 0px;
+
+
+padding: 8px;
+color: rgb(150, 150, 150);
+
+}
+
+.align-items-center {
+display: flex;
+align-items: center;  
+white-space: normal;
+}
+
+.background {
+  --gradient-right: #393e2b;
+  --gradient-left: rgb(71 78 52);
+  --gradient-background: rgb(53 58 39);
+  --gradient-background-right: rgb(194 253 51 / 0%);
+  --gradient-background-left: rgb(206 241 12 / 0%);
+  --color-showcase-header: rgb(62 69 44);
+  --gradient-showcase-header-left: rgb(83 92 60);
+  --btn-background: rgb(73 82 53);
+  --btn-background-hover: rgb(82 91 59);
+  --btn-outline: rgb(92 111 45);
+}
+
+.projects {
+margin-top: 10px;
+}
+
+.project {
+margin-bottom: 20px;
+height: auto;
+}
+
+.project-inner-upper {
+display: flex;
+align-items: space-between;
+}
+
+.project-inner-lower {
+background-color: var(--gradient-background);
+margin-top: 9px;
+height: 51px;
+padding-left: 10px;
+border-radius: 3px;
+}
+
+/*Got lazy and just copied directly from steam for this rule*/
+.achievement_progress_bar_ctn {
+  height: 8px;
+  padding: 1px;
+  width: 145px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, .1);
+}
+
+/*Got lazy and just copied directly from steam for this rule*/
+.achievement_progress_bar_ctn .progress_bar {
+  background-color: #364359;
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .3) 0%, var(--color-showcase-header) 80%);
+}
+
+.attending {
+background-color: rgba(0, 0, 0, 0.3);
+
+font-size: 13px;
+border-radius: 5px;
+margin-bottom: 0px;
+
+position: absolute;
+
+height: 60px;
+
+display: flex;
+gap: 15px;
+align-items: center;
+
+padding: 8px;
+}
+
+/* GIVE ALL NON DIGIT TEXT ITS OWN SELECTOR!!
+.right-content a:hover {
+text-decoration: underline;
+cursor: pointer;
+} */
+
+.right-content a {
+text-decoration: none;
+color: white;
+}
+
+
+.right-content p:hover {
+background-color: #958831;
+color: #ffdd33;
+}
+
+.right-content p:active {
+background-color: #505c44;
+}

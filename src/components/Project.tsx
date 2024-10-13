@@ -25,3 +25,5 @@ const Project = ({project} : ProjectProps) => {
         </div>
     );
 }
+
+export default Project;

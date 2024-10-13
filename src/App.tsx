@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import profilePicture from "./resources/images/linkedin.jpg";
 import profileOverlay from "./resources/images/steamoverlay.png";
 import farmingdaleStateCollege from "./resources/images/farmingdalestatecollege.jfif";
-
+import Project from './components/Project';
 
 function App() {
 

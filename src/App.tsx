@@ -92,7 +92,7 @@ function App() {
             <p id="online-status">Other Information</p>
 
             <p>
-              <a>Technologies<span className="profile-label"> 3</span></a><a id="setArrow"> ▶</a>
+              <a>Technologies<span className="profile-label"> 10</span></a><a id="setArrow"> ▶</a>
             </p>
 
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="50px" width="50px" />

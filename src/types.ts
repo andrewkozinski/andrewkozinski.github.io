@@ -1,6 +1,6 @@
 export interface Project {
     title: string,
     projImg: string,
-    previewImage: string,
+    previewImg: string,
     technologiesUsed: number;
   }

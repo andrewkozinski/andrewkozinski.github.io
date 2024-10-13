@@ -114,7 +114,7 @@ function App() {
               <a>Resume</a>
             </p>
             <p>
-              <a href="linkedin.com/in/andrew-kozinski-392613252/">LinkedIn </a>
+              <a href="https://www.linkedin.com/in/andrew-kozinski-392613252/">LinkedIn </a>
             </p>
             <p>
               <a>Certifications <span className="profile-label">4</span></a>

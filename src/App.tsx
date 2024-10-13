@@ -1,4 +1,4 @@
-import { useState } from 'react';
+//import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import profilePicture from "./resources/images/linkedin.jpg";
@@ -7,6 +7,8 @@ import farmingdaleStateCollege from "./resources/images/farmingdalestatecollege.
 
 
 function App() {
+
+  
 
   return (
     <>

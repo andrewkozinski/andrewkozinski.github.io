@@ -6,7 +6,7 @@ import profileOverlay from "./resources/images/steamoverlay.png";
 import farmingdaleStateCollege from "./resources/images/farmingdalestatecollege.jfif";
 import ProjectDisplay from './components/ProjectDisplay';
 import { useEffect } from 'react';
-//Project definition in types.ts
+//Project interface definition in types.ts
 import { Project } from './types.ts';
 
 

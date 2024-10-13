@@ -190,9 +190,7 @@ background-color: #505c44; /* Background color when hovered */
 color: #ffdd33;
 }
 
-.nav-ul a:active {
-  color: #ffdd33;
-}
+
 
 .menu-item {
 color: #dcdedf;

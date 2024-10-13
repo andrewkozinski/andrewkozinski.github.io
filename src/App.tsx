@@ -110,17 +110,20 @@ function App() {
               <a href="">Projects <span className="profile-label"></span></a>
             </p>
             <p>
-              <a>Inventory</a>
+              <a>Resume</a>
             </p>
             <p>
-              <a>Reviews <span className="profile-label">4</span></a>
+              <a>LinkedIn </a>
             </p>
             <p>
-              <a>Groups <span className="profile-label">15</span></a>
+              <a>Certifications <span className="profile-label">4</span></a>
             </p>
+            {/* Commented out for now
             <p>
               <a>Friends <span className="profile-label">35</span></a>
             </p>
+            */}
+            
 
           </div>
 

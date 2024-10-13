@@ -99,8 +99,6 @@ function App() {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="50px" width="50x" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" height="50px" width="50px"/>
 
-
-
             <p>
               <a href="">Projects <span className="profile-label"></span></a>
             </p>

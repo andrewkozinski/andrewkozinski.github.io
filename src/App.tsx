@@ -47,7 +47,10 @@ function App() {
 
           <div className="attending" id="schoolAttended">
             <img width="54" height="54" src={farmingdaleStateCollege} />
-            <p>Farmingdale State College 2022-2026</p>
+            <div>
+              <p>Farmingdale State College</p>
+              <p>2022-2025</p>
+            </div>
           </div>
 
         </div>

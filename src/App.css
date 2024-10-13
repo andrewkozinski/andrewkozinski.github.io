@@ -328,6 +328,10 @@ display: flex;
 align-items: space-between;
 }
 
+.project-inner-upper p:hover {
+  color: #ffdd33
+}
+
 .project-inner-lower {
 background-color: var(--gradient-background);
 margin-top: 9px;

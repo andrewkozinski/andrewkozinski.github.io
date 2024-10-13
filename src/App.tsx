@@ -5,9 +5,21 @@ import profilePicture from "./resources/images/linkedin.jpg";
 import profileOverlay from "./resources/images/steamoverlay.png";
 import farmingdaleStateCollege from "./resources/images/farmingdalestatecollege.jfif";
 import Project from './components/Project';
+import { useEffect } from 'react';
 
 function App() {
 
+
+  const loadProjects = async () => {
+    const response = await fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io/main/projects.json');
+    const data = await response.json();
+    console.log(data);
+  }
+
+  useEffect(() => {
+    //Load projects from the JSON in the GitHub repository
+    loadProjects().catch(console.error);
+  }, [])
   
 
   return (
@@ -58,7 +70,6 @@ function App() {
               </div>
 
               <div className="lower-tab" id="projects-section">
-
               </div>
 
             </div>

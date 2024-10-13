@@ -1,17 +1,12 @@
-interface ProjectProps {
-    project: {
-        previewImg: string;
-        title: string;
-    }
-}
+import {Project} from '../types.ts';
 
-const Project = ({project} : ProjectProps) => {
+const ProjectDisplay = (project: Project) => {
 
     return (
         <div className="inner-tab background project">
 
             <div className="project-inner-upper">
-                <img src={project.previewImg} height="69px" width="184px" />
+                <img src={project.previewImage} height="69px" width="184px" />
                     <p style={{ color: 'white', paddingLeft: '15px' }}>{project.title}</p>
 
             </div>
@@ -26,4 +21,4 @@ const Project = ({project} : ProjectProps) => {
     );
 }
 
-export default Project;
+export default ProjectDisplay;

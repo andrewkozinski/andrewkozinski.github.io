@@ -4,12 +4,15 @@ import Navbar from './components/Navbar';
 import profilePicture from "./resources/images/linkedin.jpg";
 import profileOverlay from "./resources/images/steamoverlay.png";
 import farmingdaleStateCollege from "./resources/images/farmingdalestatecollege.jfif";
-import Project from './components/Project';
+import ProjectDisplay from './components/ProjectDisplay';
 import { useEffect } from 'react';
+//Project definition in types.ts
+import { Project } from './types.ts';
+
 
 function App() {
 
-  const [projects, setProjects] = useState(null);
+  const [projects, setProjects] = useState<Project[]>([]);
 
   const loadProjects = async () => {
     const response = await fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io/main/projects.json');
@@ -72,7 +75,7 @@ function App() {
               </div>
 
               <div className="lower-tab" id="projects-section">
-                {projects != null ? <p>Found</p> : <p>Loading...</p>}
+                {projects.length != 0 ? projects.map((item) => <p>{item.title}</p>): <p>Loading...</p>}
               </div>
 
             </div>

@@ -1,4 +1,4 @@
-//import { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import profilePicture from "./resources/images/linkedin.jpg";
@@ -9,11 +9,13 @@ import { useEffect } from 'react';
 
 function App() {
 
+  const [projects, setProjects] = useState(null);
 
   const loadProjects = async () => {
     const response = await fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io/main/projects.json');
     const data = await response.json();
     console.log(data);
+    setProjects(data);
   }
 
   useEffect(() => {
@@ -70,6 +72,7 @@ function App() {
               </div>
 
               <div className="lower-tab" id="projects-section">
+                {projects != null ? <p>Found</p> : <p>Loading...</p>}
               </div>
 
             </div>

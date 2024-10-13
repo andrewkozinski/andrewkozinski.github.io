@@ -6,8 +6,8 @@ const ProjectDisplay = (project: Project) => {
         <div className="inner-tab background project">
 
             <div className="project-inner-upper">
-                <img src={project.previewImg} height="69px" width="184px" />
-                <p style={{ color: 'white', paddingLeft: '15px' }}>{project.title}</p>
+                <a href={project.projLink}><img src={project.previewImg} height="69px" width="184px" /></a>
+                <a href={project.projLink}><p style={{ color: 'white', paddingLeft: '15px' }}>{project.title}</p></a>
             </div>
 
             <div className="project-inner-lower align-items-center">

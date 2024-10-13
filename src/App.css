@@ -185,17 +185,23 @@ font-weight: 600;
 background-color: #958831;
 }
 
-.menu-item:active {
+.menu-item:active, .menu-item a:active {
 background-color: #505c44; /* Background color when hovered */
 color: #ffdd33;
 }
-
-
 
 .menu-item {
 color: #dcdedf;
 font-weight: 500;
 height: 100%;
+}
+
+.menu-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .heading {

@@ -324,12 +324,18 @@ height: auto;
 }
 
 .project-inner-upper {
-display: flex;
-align-items: space-between;
+  display: flex;
+  /*align-items: space-between;*/
+  align-items: flex-start;
 }
 
-.project-inner-upper p:hover {
+.project-inner-upper a:hover {
   color: #ffdd33
+}
+
+.project-inner-upper a {
+  text-decoration: none;
+  color: white;
 }
 
 .project-inner-lower {

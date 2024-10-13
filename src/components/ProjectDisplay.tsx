@@ -7,8 +7,7 @@ const ProjectDisplay = (project: Project) => {
 
             <div className="project-inner-upper">
                 <img src={project.previewImg} height="69px" width="184px" />
-                    <p style={{ color: 'white', paddingLeft: '15px' }}>{project.title}</p>
-
+                <p style={{ color: 'white', paddingLeft: '15px' }}>{project.title}</p>
             </div>
 
             <div className="project-inner-lower align-items-center">

@@ -414,13 +414,17 @@ color: white;
 }
 
 
-.right-content p:hover {
+.right-content img:hover {
 background-color: #958831;
-color: #ffdd33;
+transform: scale(1.1);
 }
 
-.right-content p:active {
-background-color: #505c44;
+.right-content a:hover {
+  color: #ffdd33;
+}
+
+.right-content a:active {
+  color: #505c44;
 }
 
 .colorWhite {

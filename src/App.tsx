@@ -68,7 +68,7 @@ function App() {
               <div className="lower-tab">
                 <div className="inner-tab background align-items-center">
                   <div>
-                    <p>Hello and welcome to my website! My name is Andrew Kozinski and currently I am a Senior at Farmingdale State College majoring in Computer Science.  I am someone who has a passion for technology and I have a solid background in Java, C, SQL, HTML/CSS, JavaScript and TypeScript.</p>
+                    <p>Hello and welcome to my website! My name is Andrew Kozinski and currently I am a Senior at Farmingdale State College majoring in Computer Science.  I am someone who has a passion for technology and I have a solid background in Java, C, Python, SQL, HTML/CSS, JavaScript and TypeScript.</p>
                     <p>I have a love of learning and am always eager to learn and pick up new skills even outside of programming and technology.</p>
                     <p>If you're interested in working with me or just wanna chat, feel free to send me an email or connect with me on LinkedIn. Whatever works best for you! In the meantime though, feel free to take look around this website, view some of my previous projects and view my resume.</p>
                   </div>

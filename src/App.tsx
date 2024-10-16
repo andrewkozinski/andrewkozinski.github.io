@@ -46,7 +46,7 @@ function App() {
           </div>
 
           <div className="attending" id="schoolAttended">
-            <img width="54" height="54" src={farmingdaleStateCollege} />
+            <img width="54" height="54" src={farmingdaleStateCollege} id="fsc"/>
             <div>
               <p>Farmingdale State College</p>
               <p>2022-2025</p>

@@ -1,5 +1,6 @@
 import "../App.css";
 import Navbar from "../components/Navbar";
+import ResumePdf from "../resources/pdfs/Resume - Andrew Kozinski.pdf"
 
 const Resume = () => {
 
@@ -8,9 +9,9 @@ const Resume = () => {
             <Navbar />
             <div className="main-body" id="main-body">
                 <iframe
-                    src={`../resources/Andrew_Kozinski_Resume.pdf`}
+                    src={ResumePdf}
                     width="100%"
-                    height="600px"
+                    height="100%"
                     title="Resume"
                 />
             </div>

@@ -7,13 +7,13 @@ const Resume = () => {
     return (
         <>
             <Navbar />
-            <div className="main-body" id="main-body">
+            <div className="main-body" id="main-body" style={{ height: "100vh", overflow: "hidden" }}>
                 <iframe
                     src={ResumePdf}
                     width="100%"
                     height="100%"
                     title="Resume"
-                    style={{border: "none"}}
+                    style={{ border: "none", marginTop: "20px", height: "calc(100vh - 20px)" }}
                 />
             </div>
         </>

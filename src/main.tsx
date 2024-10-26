@@ -8,7 +8,6 @@ import Resume from './routes/Resume.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Navbar />
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />

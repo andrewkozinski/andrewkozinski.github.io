@@ -7,6 +7,7 @@ import ProjectDisplay from './components/ProjectDisplay';
 import { useEffect } from 'react';
 //Project interface definition in types.ts
 import { Project } from './types.ts';
+import Navbar from './components/Navbar.tsx';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <>
 
       
+      <Navbar />
 
       <div className="main-body" id="main-body">
         <div className="heading" id="heading">

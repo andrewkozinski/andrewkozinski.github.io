@@ -4,10 +4,10 @@
     <script type="text/javascript">
       // Check if the current URL is already the index.html page
       if (!window.location.pathname.includes('index.html')) {
-        // Redirect to the original path
-        var redirectTo = window.location.pathname;
+        // Redirect to the index.html with the original path as a query parameter
+        var redirectTo = window.location.pathname + window.location.search;
         var origin = window.location.origin;
-        window.location.replace(origin + '/index.html' + redirectTo);
+        window.location.replace(origin + '/index.html?redirect=' + encodeURIComponent(redirectTo));
       }
     </script>
   </head>

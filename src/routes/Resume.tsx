@@ -2,11 +2,12 @@ import "../App.css";
 import Navbar from "../components/Navbar";
 import ResumePdf from "../resources/pdfs/Resume - Andrew Kozinski.pdf"
 import { setTitle, setFavicon } from "../funcs";
+import ResumePng from "../resources/images/deskicon.png";
 
 const Resume = () => {
 
     setTitle("Resume - Andrew Kozinski");
-    setFavicon("../resources/images/");
+    setFavicon(ResumePng);
 
     return (
         <>

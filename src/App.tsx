@@ -8,9 +8,12 @@ import { useEffect } from 'react';
 //Project interface definition in types.ts
 import { Project } from './types.ts';
 import Navbar from './components/Navbar.tsx';
+import { setTitle } from './funcs.ts';
 
 
 function App() {
+
+  setTitle("Home - Andrew Kozinski");
 
   const [projects, setProjects] = useState<Project[]>([]);
 

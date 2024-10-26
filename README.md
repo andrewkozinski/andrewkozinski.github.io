@@ -1,4 +1,4 @@
-# # Personal Portfolio Website
+# Personal Portfolio Website
 
 This project is a site that showcases some of my previous coding projects and provides links to my LinkedIn, resume, and more.
 

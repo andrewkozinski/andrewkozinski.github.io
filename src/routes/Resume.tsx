@@ -10,7 +10,7 @@ const Resume = () => {
 
             <div className="main-body" id="main-body">
 
-                <div className="info-tab" style={{paddingTop: "10px"}}>
+                <div className="info-tab" style={{paddingTop: "35px"}}>
 
                     <div className="upper-tab" id="aboutMe">
                         <p>Resume:</p>

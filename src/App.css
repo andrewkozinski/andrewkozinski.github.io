@@ -455,5 +455,54 @@ transform: scale(1.1);
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
 
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links {
+    width: 100%;
+  }
+
+  
+
+  .user-info p {
+    font-size: 16px;
+  }
+
+  .profile-label {
+    font-size: 20px;
+  }
+
+  .upper-tab {
+    font-size: 14px;
+  }
+
+  .lower-tab {
+    font-size: 14px;
+  }
+
+  .inner-tab {
+    font-size: 12px;
+  }
+
+  .project-inner-upper a {
+    font-size: 14px;
+  }
+
+  .project-inner-lower {
+    height: 45px;
+  }
+
+  .achievement_progress_bar_ctn {
+    width: 125px;
+  }
+
 }
 
+@media (max-width: 730px) {
+
+  .attending {
+    display: none;
+  }
+
+}

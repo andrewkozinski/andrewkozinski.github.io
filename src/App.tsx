@@ -29,8 +29,7 @@ function App() {
 
   return (
     <>
-
-      
+    
       <Navbar />
 
       <div className="main-body" id="main-body">

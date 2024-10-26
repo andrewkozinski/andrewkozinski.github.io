@@ -2,10 +2,13 @@
 <html>
   <head>
     <script type="text/javascript">
-      // Redirect to the original path
-      var redirectTo = window.location.pathname;
-      var origin = window.location.origin;
-      window.location.replace(origin + redirectTo);
+      // Check if the current URL is already the index.html page
+      if (!window.location.pathname.includes('index.html')) {
+        // Redirect to the original path
+        var redirectTo = window.location.pathname;
+        var origin = window.location.origin;
+        window.location.replace(origin + '/index.html' + redirectTo);
+      }
     </script>
   </head>
   <body></body>

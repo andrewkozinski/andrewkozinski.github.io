@@ -8,12 +8,15 @@ import { useEffect } from 'react';
 //Project interface definition in types.ts
 import { Project } from './types.ts';
 import Navbar from './components/Navbar.tsx';
-import { setTitle } from './funcs.ts';
+import { setFavicon, setTitle } from './funcs.ts';
+import HomeIcon from './resources/images/homeicon.png';
 
 
 function App() {
 
+  //Set title and favicon
   setTitle("Home - Andrew Kozinski");
+  setFavicon(HomeIcon);
 
   const [projects, setProjects] = useState<Project[]>([]);
 

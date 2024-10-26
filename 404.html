@@ -2,9 +2,10 @@
 <html>
   <head>
     <script type="text/javascript">
-      // Redirect to the index.html while preserving the original path
+      // Redirect to the original path
       var redirectTo = window.location.pathname;
-      window.location.replace('/index.html' + '#' + redirectTo);
+      var origin = window.location.origin;
+      window.location.replace(origin + redirectTo);
     </script>
   </head>
   <body></body>

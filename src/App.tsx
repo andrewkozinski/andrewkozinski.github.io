@@ -30,7 +30,7 @@ function App() {
   return (
     <>
 
-      <Navbar />
+      
 
       <div className="main-body" id="main-body">
         <div className="heading" id="heading">

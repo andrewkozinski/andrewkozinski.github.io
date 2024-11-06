@@ -28,7 +28,7 @@ const Resume = () => {
                                 width="100%"
                                 height="100%"
                                 title="Resume"
-                                style={{ border: "none", marginTop: "20px", height: "calc(100vh - 20px)" }}
+                                style={{ border: "none", height: "calc(100vh - 20px)" }}
                             />
                         </div>
                     </div>

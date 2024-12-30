@@ -1,7 +1,12 @@
 import "../App.css";
 import React from 'react';
 
-const InfoTab = (text: string, content: React.ReactNode) => {
+interface InfoTab {
+    text: string;
+    content: React.ReactNode;
+}
+
+const InfoTab : React.FC<InfoTab> = ({content, text}) => {
     return (
         <>
             <div className="info-tab" style={{ paddingTop: "35px" }}>

@@ -13,7 +13,7 @@ const Projects = () => {
         <>
             <Navbar/>
             <div className="main-body" id="main-body">
-                <InfoTab text="Test" content={<>Project Page Placeholder</>}/>
+                <InfoTab text="Projects" content={<>Project Page Placeholder</>}/>
             </div>
         </>
     );

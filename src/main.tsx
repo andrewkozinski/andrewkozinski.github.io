@@ -4,6 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Resume from './routes/Resume.tsx';
+import Projects from './routes/Projects.tsx';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -30,6 +31,7 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/projects" element={<Projects/>} />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </BrowserRouter>

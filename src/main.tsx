@@ -5,9 +5,9 @@ import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Resume from './routes/Resume.tsx';
 import Projects from './routes/Projects.tsx';
+import ContactMe from './routes/ContactMe.tsx'
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-
 
 const RedirectHandler = () => {
   const navigate = useNavigate();
@@ -32,6 +32,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<App />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects/>} />
+        <Route path="/contactme" element={<ContactMe/>}/>
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </BrowserRouter>

@@ -1,5 +1,6 @@
 import { setTitle, setFavicon } from "../funcs";
 import ProjectsPng from "../resources/images/projects.png";
+import Navbar from "../components/Navbar";
 
 const Projects = () => {
 
@@ -7,7 +8,9 @@ const Projects = () => {
     setFavicon(ProjectsPng);
 
     return (
-        <>I love tests</>
+        <>
+            <Navbar/>
+        </>
     );
 }
 export default Projects;

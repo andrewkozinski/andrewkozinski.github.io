@@ -1,6 +1,8 @@
 import { setTitle, setFavicon } from "../funcs";
 import ProjectsPng from "../resources/images/projects.png";
 import Navbar from "../components/Navbar";
+import InfoTab from "../components/InfoTab";
+import "../App.css";
 
 const Projects = () => {
 
@@ -10,6 +12,9 @@ const Projects = () => {
     return (
         <>
             <Navbar/>
+            <div className="main-body" id="main-body">
+                <InfoTab text="Test" content={<>Project Page Placeholder</>}/>
+            </div>
         </>
     );
 }

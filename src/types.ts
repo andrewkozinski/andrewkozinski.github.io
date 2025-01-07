@@ -5,3 +5,8 @@ export interface Project {
     projLink: string,
     technologiesUsed: number;
   }
+
+export interface ContactCardProps {
+    contactName: string,
+    contactLink: string;
+}

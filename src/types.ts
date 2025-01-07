@@ -8,5 +8,6 @@ export interface Project {
 
 export interface ContactCardProps {
     contactName: string,
-    contactLink: string;
+    contactLink: string,
+    contactImg: string;
 }

@@ -10,7 +10,8 @@ const ContactMe = () => {
                 <InfoTab text="Contact Me:" content={
                     <>
                         
-                        <form action="" method="POST">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="f7e9e5bb-ac28-40fe-84c9-926832d8c108"/>
                             <label htmlFor="name">Name:</label>
                             <input type="text" id="name" name="name" placeholder="Your name" required/>
                             <label htmlFor="email">Email:</label>

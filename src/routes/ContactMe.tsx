@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import InfoTab from "../components/InfoTab";
+import "../CSS/ContactMe.css";
 
 const ContactMe = () => {
     return (
@@ -9,7 +10,7 @@ const ContactMe = () => {
                 <InfoTab text="Contact Me:" content={
                     <>
                         
-                        <form action="https://formspree.io/f/mleovjzq" method="POST">
+                        <form action="" method="POST">
                             <label htmlFor="name">Name:</label>
                             <input type="text" id="name" name="name" placeholder="Your name" required/>
                             <label htmlFor="email">Email:</label>
@@ -18,9 +19,16 @@ const ContactMe = () => {
                             <textarea id="message" name="message" placeholder="Write a message" required></textarea>
                             <input type="submit" value="Submit"/>
                         </form>
+
+
                     </>
                 }/>
+
+                
+
             </div>
+
+            
         </>
     );
 }

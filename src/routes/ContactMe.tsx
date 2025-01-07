@@ -7,9 +7,10 @@ const ContactMe = () => {
         <>
             <Navbar/>
             <div className="main-body" id="main-body">
+
+                {/*Contact Me Form displayed in an InfoTab component*/}
                 <InfoTab text="Contact Me:" content={
                     <>
-                        
                         <form action="https://api.web3forms.com/submit" method="POST">
                             <input type="hidden" name="access_key" value="f7e9e5bb-ac28-40fe-84c9-926832d8c108"/>
                             <label htmlFor="name">Name:</label>
@@ -20,11 +21,11 @@ const ContactMe = () => {
                             <textarea id="message" name="message" placeholder="Write a message" required></textarea>
                             <input type="submit" value="Submit"/>
                         </form>
-
-
                     </>
                 }/>
 
+
+                {/*Maybe put social media links here?*/}
                 
 
             </div>

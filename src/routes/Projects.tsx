@@ -15,6 +15,7 @@ const Projects = () => {
             <div className="main-body" id="main-body">
                 <InfoTab text="Projects" content={<>Project Page Placeholder</>}/>
                 {/*TODO: Fetch projects from the JSON file and display them.*/}
+                {/*Potentially have pages for each project that will be loaded based on the url? Look into this later.*/}
             </div>
         </>
     );

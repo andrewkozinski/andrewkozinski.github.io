@@ -13,7 +13,7 @@ const Projects = () => {
         <>
             <Navbar/>
             <div className="main-body" id="main-body">
-                <InfoTab text="Projects" content={<>Project Page Placeholder</>}/>
+                <InfoTab text="Projects" content={<>Project Page Placeholder. As of now, my previous projects are not yet displayed. Check back here at a later date.</>}/>
                 {/*TODO: Fetch projects from the JSON file and display them.*/}
                 {/*Potentially have pages for each project that will be loaded based on the url? Look into this later.*/}
             </div>

@@ -24,6 +24,8 @@ const ContactMe = () => {
                     </>
                 }/>
 
+                {/*<p className="centeredText">You can contact me using these methods as well.</p>*/}
+                <hr className="rounded"/>
 
                 {/*Maybe put social media links here?*/}
                 

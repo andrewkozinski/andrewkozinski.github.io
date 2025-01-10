@@ -1,8 +1,14 @@
+import { setTitle, setFavicon } from "../funcs";
+import ContactPng from "../resources/images/contactmelarge.png";
 import Navbar from "../components/Navbar";
 import InfoTab from "../components/InfoTab";
 import "../CSS/ContactMe.css";
 
 const ContactMe = () => {
+
+    setTitle("Contact Me - Andrew Kozinski");
+    setFavicon(ContactPng);
+
     return (
         <>
             <Navbar/>
@@ -26,7 +32,6 @@ const ContactMe = () => {
 
                 {/*<p className="centeredText">You can contact me using these methods as well.</p>*/}
                 <hr className="rounded"/>
-
                 {/*Maybe put social media links here?*/}
                 
 

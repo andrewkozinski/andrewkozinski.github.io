@@ -10,6 +10,7 @@ import { Project } from './types.ts';
 import Navbar from './components/Navbar.tsx';
 import { setFavicon, setTitle } from './funcs.ts';
 import HomeIcon from './resources/images/homeicon.png';
+import {Link} from 'react-router-dom';
 
 
 function App() {
@@ -114,16 +115,16 @@ function App() {
             <img title="Firebase" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" height="50px" width="50px"/>
 
             <p>
-              <a href="">Projects <span className="profile-label"></span></a>
+              <Link to="/projects">Projects</Link>
             </p>
             <p>
-              <a>Resume</a>
+              <Link to="/resume">Resume</Link>
             </p>
             <p>
               <a href="https://www.linkedin.com/in/andrew-kozinski-392613252/">LinkedIn </a>
             </p>
             <p>
-              <a>Certifications <span className="profile-label">4</span></a>
+              <a href="https://www.linkedin.com/in/andrew-kozinski-392613252/details/certifications/">Certifications {/*<span className="profile-label">4</span>*/}</a>
             </p>
             {/* Commented out for now
             <p>

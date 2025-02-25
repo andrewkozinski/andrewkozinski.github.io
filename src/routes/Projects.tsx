@@ -1,7 +1,6 @@
 import { setTitle, setFavicon } from "../funcs";
 import ProjectsPng from "../resources/images/projects.png";
 import Navbar from "../components/Navbar";
-import InfoTab from "../components/InfoTab";
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Project } from '../types.ts';

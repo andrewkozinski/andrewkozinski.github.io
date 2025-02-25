@@ -41,7 +41,7 @@
         "projImg": "https://i.imgur.com/IpJnjQn.png",
         "previewImg": "https://i.imgur.com/1CdMiG0.png",
         "projLink": "https://github.com/andrewkozinski/pokemon-search-app",
-        "technologiesUsed": 2,
+        "technologiesUsed": 3,
         "technologyList": ["JavaScript", "HTML", "CSS"]
     }
 ]

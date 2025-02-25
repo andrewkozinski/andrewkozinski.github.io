@@ -4,5 +4,6 @@ export interface Project {
     projImg: string,
     previewImg: string,
     projLink: string,
-    technologiesUsed: number;
+    technologiesUsed: number,
+    technologyList: string[];
   }

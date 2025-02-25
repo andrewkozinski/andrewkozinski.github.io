@@ -8,6 +8,14 @@
         "technologiesUsed": 4
     },
     {
+        "pagename": "atlantis-university",
+        "title": "School Registration System",
+        "projImg": "https://i.imgur.com/r4hhG45.png",
+        "previewImg": "https://i.imgur.com/EFe9iR6.png",
+        "projLink": "https://github.com/andrewkozinski/weather-app",
+        "technologiesUsed": 3
+    },
+    {
         "pagename": "pdf-to-html",
         "title": "PDF to HTML",
         "projImg": "https://i.imgur.com/fuJd7JO.png",
@@ -24,7 +32,7 @@
         "technologiesUsed": 1
     },
     {
-        "pagename": "jdbc-movies",
+        "pagename": "pokemon-app",
         "title": "Pokemon Search App",
         "projImg": "https://i.imgur.com/IpJnjQn.png",
         "previewImg": "https://i.imgur.com/1CdMiG0.png",

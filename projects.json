@@ -5,7 +5,8 @@
         "projImg": "https://i.imgur.com/Jd9rD13.png",
         "previewImg": "https://i.imgur.com/Trt9fH4.png",
         "projLink": "https://github.com/andrewkozinski/weather-app",
-        "technologiesUsed": 4
+        "technologiesUsed": 4,
+        "technologyList": ["React", "JavaScript", "HTML", "CSS"]
     },
     {
         "pagename": "atlantis-university",
@@ -13,7 +14,8 @@
         "projImg": "https://i.imgur.com/r4hhG45.png",
         "previewImg": "https://i.imgur.com/EFe9iR6.png",
         "projLink": "https://github.com/andrewkozinski/weather-app",
-        "technologiesUsed": 3
+        "technologiesUsed": 3,
+        "technologyList": ["Java", "JavaFX", "Firebase"]
     },
     {
         "pagename": "pdf-to-html",
@@ -21,7 +23,8 @@
         "projImg": "https://i.imgur.com/fuJd7JO.png",
         "previewImg": "https://i.imgur.com/L4qBMhs.png",
         "projLink": "https://github.com/andrewkozinski/pdftohtml",
-        "technologiesUsed": 2
+        "technologiesUsed": 2,
+        "technologyList": ["Java", "JavaFX", "HTML", "CSS"]
     },
     {
         "pagename": "jdbc-movies",
@@ -29,7 +32,8 @@
         "projImg": "https://i.imgur.com/KhgklZe.png",
         "previewImg": "https://i.imgur.com/4o4th0K.png",
         "projLink": "https://github.com/andrewkozinski/jdbcmovies",
-        "technologiesUsed": 1
+        "technologiesUsed": 3,
+        "technologyList": ["Java", "JavaFX", "JDBC"]
     },
     {
         "pagename": "pokemon-app",
@@ -37,6 +41,7 @@
         "projImg": "https://i.imgur.com/IpJnjQn.png",
         "previewImg": "https://i.imgur.com/1CdMiG0.png",
         "projLink": "https://github.com/andrewkozinski/pokemon-search-app",
-        "technologiesUsed": 2
+        "technologiesUsed": 2,
+        "technologyList": ["JavaScript", "HTML", "CSS"]
     }
 ]

@@ -39,7 +39,7 @@ const Navbar = () => {
         
         {/*Mobile Hamburger Menu*/}
         <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
-                <ul className="">
+                <ul>
                     <NavElements />
                 </ul>
         </div>

@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import { useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
 const NavElements = () => {
@@ -17,10 +17,28 @@ const NavElements = () => {
 const Navbar = () => {
     
     const [isOpen, setIsOpen] = useState(false);
+    const menuRef = useRef<HTMLDivElement>(null);
+    const hamburgerRef = useRef<HTMLDivElement>(null);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+
+    const handleClickOutside = (event: MouseEvent) => {
+        if (
+            menuRef.current && !menuRef.current.contains(event.target as Node) &&
+            hamburgerRef.current && !hamburgerRef.current.contains(event.target as Node)
+        ) {
+            setIsOpen(false);
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
     
     return (
@@ -32,13 +50,13 @@ const Navbar = () => {
                     <NavElements />
                 </ul>
             </div>
-            <div className="hamburger-menu" onClick={toggleMenu}>
+            <div ref={hamburgerRef} className="hamburger-menu" onClick={toggleMenu}>
                 &#9776;
             </div>
         </header>
         
         {/*Mobile Hamburger Menu*/}
-        <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
+        <div ref={menuRef} className={`mobile-menu ${isOpen ? 'open' : ''}`}>
                 <ul>
                     <NavElements />
                 </ul>

@@ -99,7 +99,7 @@ function App() {
             <p id="online-status">Other Information</p>
 
             <p>
-              <a>Technologies<span className="profile-label"> 10</span></a><a id="setArrow"> ▶</a>
+              <a>Technologies<span className="profile-label"> 11</span></a><a id="setArrow"> ▶</a>
             </p>
 
             <img title="Java" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="50px" width="50px" />
@@ -113,6 +113,7 @@ function App() {
             <img title="SQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" height="50px" width="50px" />
             <img title="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="50px" width="50x" />
             <img title="Firebase" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" height="50px" width="50px"/>
+            <img title="Kotlin" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" height="50px" width="50px"/>
 
             <p>
               <Link to="/projects">Projects</Link>

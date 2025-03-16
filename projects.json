@@ -1,6 +1,6 @@
 [
     {
-        "pagename": "weather-app",
+        "pageName": "weather-app",
         "title": "React Weather App",
         "projImg": "https://i.imgur.com/Jd9rD13.png",
         "previewImg": "https://i.imgur.com/Trt9fH4.png",
@@ -9,7 +9,7 @@
         "technologyList": ["React", "JavaScript", "HTML", "CSS"]
     },
     {
-        "pagename": "atlantis-university",
+        "pageName": "atlantis-university",
         "title": "School Registration System",
         "projImg": "https://i.imgur.com/r4hhG45.png",
         "previewImg": "https://i.imgur.com/EFe9iR6.png",
@@ -18,7 +18,7 @@
         "technologyList": ["Java", "JavaFX", "Firebase"]
     },
     {
-        "pagename": "pdf-to-html",
+        "pageName": "pdf-to-html",
         "title": "PDF to HTML",
         "projImg": "https://i.imgur.com/fuJd7JO.png",
         "previewImg": "https://i.imgur.com/L4qBMhs.png",
@@ -27,7 +27,7 @@
         "technologyList": ["Java", "JavaFX", "HTML", "CSS"]
     },
     {
-        "pagename": "jdbc-movies",
+        "pageName": "jdbc-movies",
         "title": "JDBC Movies Program",
         "projImg": "https://i.imgur.com/KhgklZe.png",
         "previewImg": "https://i.imgur.com/4o4th0K.png",
@@ -36,7 +36,7 @@
         "technologyList": ["Java", "JavaFX", "JDBC"]
     },
     {
-        "pagename": "pokemon-app",
+        "pageName": "pokemon-app",
         "title": "Pokemon Search App",
         "projImg": "https://i.imgur.com/IpJnjQn.png",
         "previewImg": "https://i.imgur.com/1CdMiG0.png",

@@ -18,7 +18,7 @@ const ProjectPage = () => {
     setProjects(data); 
 
     //Find the project with the name that matches the url
-    let project = projects.find((project) => project.pageName === params.projname);
+    let project = data.find((project: Project) => project.pageName === params.projname);
     if (project === undefined) {//If the project is not found, log an error and return
       console.error("Project not found");
       return;

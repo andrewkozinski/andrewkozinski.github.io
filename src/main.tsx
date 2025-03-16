@@ -8,6 +8,7 @@ import Projects from './routes/Projects.tsx';
 import ContactMe from './routes/ContactMe.tsx'
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import ProjectPage from './routes/ProjectPage.tsx'
 
 const RedirectHandler = () => {
   const navigate = useNavigate();
@@ -32,6 +33,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<App />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects/>} />
+        <Route path="/projects/:projname" element={<ProjectPage/>}/>
         <Route path="/contactme" element={<ContactMe/>}/>
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>

@@ -1,4 +1,5 @@
 import {Project} from '../types.ts';
+import {Link} from "react-router-dom";
 
 const ProjectDisplay = (project: Project) => {
 
@@ -6,8 +7,12 @@ const ProjectDisplay = (project: Project) => {
         <div className="inner-tab background project">
 
             <div className="project-inner-upper">
-                <a href={project.projLink}><img src={project.previewImg} height="69px" width="184px" /></a>
-                <a href={project.projLink} style={{paddingLeft: '15px', display: "block", marginBlockStart: ".5em", marginBlockEnd: "1em", marginInlineStart: "0px", marginInlineEnd: "0px", fontSize: "15px"}}>{project.title}</a>
+                <Link to={`/projects/${project.pageName}`}>
+                    <a><img src={project.previewImg} height="69px" width="184px" /></a>
+                </Link>
+                <Link to={`/projects/${project.pageName}`}>
+                <a style={{paddingLeft: '15px', display: "block", marginBlockStart: ".5em", marginBlockEnd: "1em", marginInlineStart: "0px", marginInlineEnd: "0px", fontSize: "15px"}}>{project.title}</a>
+                </Link>
             </div>
 
             <div className="project-inner-lower align-items-center">

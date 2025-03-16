@@ -8,14 +8,14 @@ const ProjectPage = () => {
   let params = useParams();
   //console.log(params);
 
-  const [projects, setProjects] = useState<Project[]>([]);
+  //const [projects, setProjects] = useState<Project[]>([]);
   const [currentProject, setCurrentProject] = useState<Project | null>(null);
 
   const loadProjects = async () => {
     const response = await fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io/main/projects.json');
     const data = await response.json();
     //console.log(data);
-    setProjects(data); 
+    //setProjects(data); 
 
     //Find the project with the name that matches the url
     let project = data.find((project: Project) => project.pageName === params.projname);

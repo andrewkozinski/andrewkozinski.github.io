@@ -5,6 +5,7 @@
         "projImg": ["https://i.imgur.com/Jd9rD13.png"],
         "previewImg": "https://i.imgur.com/Trt9fH4.png",
         "projLink": "https://github.com/andrewkozinski/weather-app",
+        "projDescription": "A simple weather app that uses the OpenWeatherMap API to display the current weather for a given city.",
         "technologiesUsed": 4,
         "technologyList": ["React", "JavaScript", "HTML", "CSS"]
     },
@@ -14,6 +15,7 @@
         "projImg": ["https://i.imgur.com/r4hhG45.png"],
         "previewImg": "https://i.imgur.com/EFe9iR6.png",
         "projLink": "https://andrewkozinski.github.io/projects",
+        "projDescription": "A school registration system that allows students to register for classes and view their schedule.",
         "technologiesUsed": 3,
         "technologyList": ["Java", "JavaFX", "Firebase"]
     },
@@ -23,6 +25,7 @@
         "projImg": ["https://i.imgur.com/fuJd7JO.png"],
         "previewImg": "https://i.imgur.com/L4qBMhs.png",
         "projLink": "https://github.com/andrewkozinski/pdftohtml",
+        "projDescription": "A program that converts takes in PDF files and generates an HTML file with those PDFs embedded.",
         "technologiesUsed": 2,
         "technologyList": ["Java", "JavaFX", "HTML", "CSS"]
     },
@@ -32,6 +35,7 @@
         "projImg": ["https://i.imgur.com/KhgklZe.png"],
         "previewImg": "https://i.imgur.com/4o4th0K.png",
         "projLink": "https://github.com/andrewkozinski/jdbcmovies",
+        "projDescription": "A program that connects to a database and allows users to view, add, and delete movies from that database. Uses a JavaFX GUI.",
         "technologiesUsed": 3,
         "technologyList": ["Java", "JavaFX", "JDBC"]
     },
@@ -41,6 +45,7 @@
         "projImg": ["https://i.imgur.com/IpJnjQn.png"],
         "previewImg": "https://i.imgur.com/1CdMiG0.png",
         "projLink": "https://github.com/andrewkozinski/pokemon-search-app",
+        "projDescription": "A simple app that allows users to search for a Pokemon and view its stats. Uses the PokeAPI.",
         "technologiesUsed": 3,
         "technologyList": ["JavaScript", "HTML", "CSS"]
     }

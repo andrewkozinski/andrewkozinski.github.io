@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import {useParams} from "react-router-dom";
 import { Project } from "../types";
+import ProjectGallery from "../components/ProjectGallery";
 
 const ProjectPage = () => {
 
@@ -47,7 +48,7 @@ const ProjectPage = () => {
                           <p>{currentProject?.title}</p>
                       </div>
                       <div className="inner-tab background ">
-                          
+                          <ProjectGallery images={currentProject.projImg} />
                       </div>
                     
                     </>

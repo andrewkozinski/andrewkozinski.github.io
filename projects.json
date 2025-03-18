@@ -34,7 +34,7 @@
         "projImg": ["https://i.imgur.com/r4hhG45.png"],
         "previewImg": "https://i.imgur.com/EFe9iR6.png",
         "projLink": "EMPTY",
-        "projDescription": "A school registration system that allows students to register for classes and view their schedule.",
+        "projDescription": "A school registration system that allows students to register for classes and view their schedule. There are 3 user types, each with different permissions and features. These user types include the following: Student, Professor and Admin. Students can look up their schedules, enroll and unenroll in classes and join the waitlist for full classes. Professors can view their class rosters, add grades and view enrolled student information. Admins can add, modify and remove classes, view student information, and view professor information. This program has Two-Factor Authentication and uses Firebase as the backend to store user and course information.",
         "technologiesUsed": 3,
         "technologyList": ["Java", "JavaFX", "Firebase", "CSS"],
         "technologyDetails": 

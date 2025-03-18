@@ -2,7 +2,7 @@
     {
         "pageName": "weather-app",
         "title": "React Weather App",
-        "projImg": ["https://i.imgur.com/Jd9rD13.png", "https://i.imgur.com/toQ7a3M.png"],
+        "projImg": ["https://i.imgur.com/Jd9rD13.png", "https://github.com/andrewkozinski/project5/blob/main/web102project5.gif?raw=true", "https://i.imgur.com/yoa8Ing.png"],
         "previewImg": "https://i.imgur.com/Trt9fH4.png",
         "projLink": "https://github.com/andrewkozinski/weather-app",
         "projDescription": "A simple weather app that uses the OpenWeatherMap API to display the current weather for a given city.",

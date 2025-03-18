@@ -89,7 +89,7 @@ function App() {
               </div>
 
               <div className="lower-tab" id="projects-section">
-                {projects.length != 0 ? projects.slice(0,3).map((item : Project) => <ProjectDisplay pageName={item.pageName} title={item.title} projImg={item.projImg} previewImg={item.previewImg} technologiesUsed={item.technologiesUsed} projLink={item.projLink} technologyList={item.technologyList} key={item.title}/>): <p>Loading...</p>}
+                {projects.length != 0 ? projects.slice(0,3).map((item : Project) => <ProjectDisplay pageName={item.pageName} title={item.title} projImg={item.projImg} previewImg={item.previewImg} technologiesUsed={item.technologiesUsed} projLink={item.projLink} projDescription={item.projDescription} technologyList={item.technologyList} key={item.title}/>): <p>Loading...</p>}
               </div>
 
             </div>

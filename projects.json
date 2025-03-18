@@ -14,7 +14,7 @@
         "title": "School Registration System",
         "projImg": ["https://i.imgur.com/r4hhG45.png"],
         "previewImg": "https://i.imgur.com/EFe9iR6.png",
-        "projLink": "https://andrewkozinski.github.io/projects",
+        "projLink": "EMPTY",
         "projDescription": "A school registration system that allows students to register for classes and view their schedule.",
         "technologiesUsed": 3,
         "technologyList": ["Java", "JavaFX", "Firebase"]

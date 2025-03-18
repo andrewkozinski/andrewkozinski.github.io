@@ -607,3 +607,9 @@ transform: scale(1.1);
   border-radius: 3px;
   padding: 2px;
 }
+
+.project-inner-upper a {
+  word-wrap: break-word; /* Break long words */
+  white-space: normal; /* Allow text to wrap */
+  overflow-wrap: break-word; /* Ensure text wraps properly */
+}

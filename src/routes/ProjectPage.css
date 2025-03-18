@@ -1,0 +1,52 @@
+.technologies-used {
+    margin-top: 20px;
+}
+
+.tech-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tech-item {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.project-description {
+    margin-top: 20px;
+}
+
+.project-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.github-link {
+    color: grey;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color: inherit;
+}
+
+
+.project-details-container {
+    background-color: #282c1c; 
+    color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+
+.project-details-container h2 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}

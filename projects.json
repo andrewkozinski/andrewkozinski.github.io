@@ -1,5 +1,38 @@
 [
     {
+        "pageName": "deltarune-menu",
+        "title": "Deltarune Main Menu Recreation",
+        "projImg": ["https://i.imgur.com/U6MSqJx.png", "https://i.imgur.com/4ccay8W.png", "https://i.imgur.com/bzR6EnW.png", "https://i.imgur.com/9oDIc59.png"],
+        "previewImg": "https://i.imgur.com/dUTJEhw.png",
+        "projLink": "https://github.com/andrewkozinski/deltarune-menu",
+        "projDescription": "A recreation of the main menu screen from the video game Deltarune. There is a toggle switch in the bottom right corner allowing the user to change the main menu from how it looks in Chapter 1 to how it appears after you beat either Chapter 1 or 2. This project was made using React, TypeScript, and Tailwind CSS.",
+        "technologiesUsed": 5,
+        "technologyList": ["HTML", "CSS", "TypeScript","React", "Tailwind CSS"],
+        "technologyDetails": 
+        [
+            {
+                "name": "HTML",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+            },
+            {
+                "name": "CSS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+            },
+            {
+                "name": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+            }
+        ]
+    },
+    {
         "pageName": "weather-app",
         "title": "React Weather App",
         "projImg": ["https://github.com/andrewkozinski/project5/blob/main/web102project5.gif?raw=true", "https://i.imgur.com/mreWswt.png", "https://i.imgur.com/76Afxpt.png", "https://i.imgur.com/yoa8Ing.png"],

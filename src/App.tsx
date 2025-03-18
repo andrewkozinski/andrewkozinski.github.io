@@ -122,10 +122,10 @@ function App() {
               <Link to="/resume">Resume</Link>
             </p>
             <p>
-              <a href="https://www.linkedin.com/in/andrew-kozinski-392613252/">LinkedIn </a>
+              <a href="https://www.linkedin.com/in/andrew-kozinski-392613252/" target="_blank" rel="noopener noreferrer">LinkedIn </a>
             </p>
             <p>
-              <a href="https://www.linkedin.com/in/andrew-kozinski-392613252/details/certifications/">Certifications {/*<span className="profile-label">4</span>*/}</a>
+              <a href="https://www.linkedin.com/in/andrew-kozinski-392613252/details/certifications/" target="_blank" rel="noopener noreferrer">Certifications {/*<span className="profile-label">4</span>*/}</a>
             </p>
             {/* Commented out for now
             <p>

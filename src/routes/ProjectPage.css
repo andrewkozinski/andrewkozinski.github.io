@@ -15,6 +15,13 @@
     border-radius: 5px;
 }
 
+.tech-item:hover {
+    /*background-color: #555;*/
+    background-color: #8a7f2d;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
 .project-description {
     margin-top: 20px;
 }

@@ -18,7 +18,7 @@ const ProjectDisplay = (project: Project) => {
             <div className="project-inner-lower align-items-center">
                 <p style={{ color: 'white' }}>Technologies Used: {project.technologiesUsed}</p>
                 {/*<p style={{ paddingLeft: '8px', paddingRight: '8px' }}>{project.technologiesUsed}</p> */}
-                <div className="proj-languages" style={{ display: 'flex', marginLeft: '10px', gap: '2px' }}>
+                <div className="proj-languages" style={{ display: 'flex', marginLeft: '10px', gap: '3px' }}>
                     {project.technologyDetails.map((tech) => {
                         return <img src={tech.icon} height="35px" width="35px" />;
                     })}

@@ -6,5 +6,9 @@ export interface Project {
     projLink: string,
     projDescription: string,
     technologiesUsed: number,
-    technologyList: string[];
+    technologyList: string[],
+    technologyDetails: {
+      name: string,
+      icon: string
+    }[]
   }

@@ -3,6 +3,9 @@ import Navbar from "../components/Navbar";
 import {useParams} from "react-router-dom";
 import { Project } from "../types";
 import ProjectGallery from "../components/ProjectGallery";
+import './ProjectPage.css'
+import { SiGithub } from "react-icons/si";
+import {Code2, FileText} from 'lucide-react';
 
 const ProjectPage = () => {
 
@@ -49,8 +52,38 @@ const ProjectPage = () => {
                       </div>
                       <div className="inner-tab background ">
                           <ProjectGallery images={currentProject.projImg} />
+                      </div> 
+                      
+
+                      <h1 className="project-title">
+                        {currentProject?.title}
+                        {currentProject?.projLink !== "EMPTY" && (
+                          <a href={currentProject.projLink} target="_blank" rel="noopener noreferrer" className="github-link">
+                            <SiGithub size={24} style={{ marginLeft: '10px' }} />
+                          </a>
+                        )}
+                      </h1>
+
+                      <div className="project-details-container">
+                        <h2>
+                          <FileText style={{ marginRight: '8px' }} />
+                          Project Description
+                        </h2>
+                        <p>{currentProject?.projDescription}</p>
                       </div>
-                    
+
+                      <div className="project-details-container">
+                        <h2>
+                          <Code2 style={{ marginRight: '8px' }} />
+                          Technologies Used
+                        </h2>
+                        <div className="tech-list">
+                          {currentProject?.technologyList.map((tech, index) => (
+                            <span key={index} className="tech-item">{tech}</span>
+                          ))}
+                        </div>
+                      </div>
+
                     </>
 
                     }

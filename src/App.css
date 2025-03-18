@@ -601,3 +601,9 @@ transform: scale(1.1);
   background-color: #958831;
   transform: scale(1.1);
 }
+
+.proj-languages img{
+  background-color: #50543c;
+  border-radius: 3px;
+  padding: 2px;
+}

@@ -2,7 +2,7 @@
     {
         "pageName": "weather-app",
         "title": "React Weather App",
-        "projImg": "https://i.imgur.com/Jd9rD13.png",
+        "projImg": ["https://i.imgur.com/Jd9rD13.png"],
         "previewImg": "https://i.imgur.com/Trt9fH4.png",
         "projLink": "https://github.com/andrewkozinski/weather-app",
         "technologiesUsed": 4,
@@ -11,7 +11,7 @@
     {
         "pageName": "atlantis-university",
         "title": "School Registration System",
-        "projImg": "https://i.imgur.com/r4hhG45.png",
+        "projImg": ["https://i.imgur.com/r4hhG45.png"],
         "previewImg": "https://i.imgur.com/EFe9iR6.png",
         "projLink": "https://andrewkozinski.github.io/projects",
         "technologiesUsed": 3,
@@ -20,7 +20,7 @@
     {
         "pageName": "pdf-to-html",
         "title": "PDF to HTML",
-        "projImg": "https://i.imgur.com/fuJd7JO.png",
+        "projImg": ["https://i.imgur.com/fuJd7JO.png"],
         "previewImg": "https://i.imgur.com/L4qBMhs.png",
         "projLink": "https://github.com/andrewkozinski/pdftohtml",
         "technologiesUsed": 2,
@@ -29,7 +29,7 @@
     {
         "pageName": "jdbc-movies",
         "title": "JDBC Movies Program",
-        "projImg": "https://i.imgur.com/KhgklZe.png",
+        "projImg": ["https://i.imgur.com/KhgklZe.png"],
         "previewImg": "https://i.imgur.com/4o4th0K.png",
         "projLink": "https://github.com/andrewkozinski/jdbcmovies",
         "technologiesUsed": 3,
@@ -38,7 +38,7 @@
     {
         "pageName": "pokemon-app",
         "title": "Pokemon Search App",
-        "projImg": "https://i.imgur.com/IpJnjQn.png",
+        "projImg": ["https://i.imgur.com/IpJnjQn.png"],
         "previewImg": "https://i.imgur.com/1CdMiG0.png",
         "projLink": "https://github.com/andrewkozinski/pokemon-search-app",
         "technologiesUsed": 3,

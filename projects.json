@@ -7,17 +7,9 @@
         "projLink": "https://github.com/andrewkozinski/weather-app",
         "projDescription": "A simple weather app that uses the OpenWeatherMap API to display the current weather for a given city.",
         "technologiesUsed": 4,
-        "technologyList": ["React", "JavaScript", "HTML", "CSS"],
+        "technologyList": ["HTML", "CSS", "JavaScript","React"],
         "technologyDetails": 
         [
-            {
-                "name": "React",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-            },
-            {
-                "name": "JavaScript",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-            },
             {
                 "name": "HTML",
                 "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
@@ -25,6 +17,14 @@
             {
                 "name": "CSS",
                 "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            },
+            {
+                "name": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
             }
         ]
     },
@@ -103,13 +103,9 @@
         "projLink": "https://github.com/andrewkozinski/pokemon-search-app",
         "projDescription": "A simple app that allows users to search for a Pokemon and view its stats. Uses the PokeAPI.",
         "technologiesUsed": 3,
-        "technologyList": ["JavaScript", "HTML", "CSS"],
+        "technologyList": ["HTML", "CSS", "JavaScript"],
         "technologyDetails":
         [
-            {
-                "name": "JavaScript",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-            },
             {
                 "name": "HTML",
                 "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
@@ -117,6 +113,10 @@
             {
                 "name": "CSS",
                 "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
             }
         ]
     }

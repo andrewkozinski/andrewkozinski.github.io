@@ -7,7 +7,26 @@
         "projLink": "https://github.com/andrewkozinski/weather-app",
         "projDescription": "A simple weather app that uses the OpenWeatherMap API to display the current weather for a given city.",
         "technologiesUsed": 4,
-        "technologyList": ["React", "JavaScript", "HTML", "CSS"]
+        "technologyList": ["React", "JavaScript", "HTML", "CSS"],
+        "technologyDetails": 
+        [
+            {
+                "name": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            },
+            {
+                "name": "HTML",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+            },
+            {
+                "name": "CSS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+            }
+        ]
     },
     {
         "pageName": "atlantis-university",
@@ -17,7 +36,22 @@
         "projLink": "EMPTY",
         "projDescription": "A school registration system that allows students to register for classes and view their schedule.",
         "technologiesUsed": 3,
-        "technologyList": ["Java", "JavaFX", "Firebase"]
+        "technologyList": ["Java", "JavaFX", "Firebase", "CSS"],
+        "technologyDetails": 
+        [
+            {
+                "name": "Java",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            },
+            {
+                "name": "Firebase",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+            },
+            {
+                "name": "CSS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+            }
+        ]
     },
     {
         "pageName": "pdf-to-html",
@@ -27,7 +61,22 @@
         "projLink": "https://github.com/andrewkozinski/pdftohtml",
         "projDescription": "A program that converts takes in PDF files and generates an HTML file with those PDFs embedded.",
         "technologiesUsed": 2,
-        "technologyList": ["Java", "JavaFX", "HTML", "CSS"]
+        "technologyList": ["Java", "JavaFX", "HTML", "CSS"],
+        "technologyDetails": 
+        [
+            {
+                "name": "Java",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            },
+            {
+                "name": "HTML",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+            },
+            {
+                "name": "CSS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+            }
+        ]
     },
     {
         "pageName": "jdbc-movies",
@@ -37,7 +86,14 @@
         "projLink": "https://github.com/andrewkozinski/jdbcmovies",
         "projDescription": "A program that connects to a database and allows users to view, add, and delete movies from that database. Uses a JavaFX GUI.",
         "technologiesUsed": 3,
-        "technologyList": ["Java", "JavaFX", "JDBC"]
+        "technologyList": ["Java", "JavaFX", "JDBC"],
+        "technologyDetails":
+        [
+            {
+                "name": "Java",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            }
+        ]
     },
     {
         "pageName": "pokemon-app",
@@ -47,6 +103,21 @@
         "projLink": "https://github.com/andrewkozinski/pokemon-search-app",
         "projDescription": "A simple app that allows users to search for a Pokemon and view its stats. Uses the PokeAPI.",
         "technologiesUsed": 3,
-        "technologyList": ["JavaScript", "HTML", "CSS"]
+        "technologyList": ["JavaScript", "HTML", "CSS"],
+        "technologyDetails":
+        [
+            {
+                "name": "JavaScript",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            },
+            {
+                "name": "HTML",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+            },
+            {
+                "name": "CSS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+            }
+        ]
     }
 ]

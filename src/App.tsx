@@ -99,7 +99,7 @@ function App() {
             <p id="online-status">Other Information</p>
 
             <p>
-              <a>Technologies<span className="profile-label"> 11</span></a><a id="setArrow"> ▶</a>
+              <a>Technologies<span className="profile-label"> 12</span></a><a id="setArrow"> ▶</a>
             </p>
 
             <div>

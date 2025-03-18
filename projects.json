@@ -73,6 +73,10 @@
                 "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
             },
             {
+                "name": "JavaFX",
+                "icon": "https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io/refs/heads/main/src/assets/JavaFX.png"
+            },
+            {
                 "name": "HTML",
                 "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
             },
@@ -96,6 +100,14 @@
             {
                 "name": "Java",
                 "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+            },
+            {
+                "name": "JavaFX",
+                "icon": "https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io/refs/heads/main/src/assets/JavaFX.png"
+            },
+            {
+                "name": "JDBC",
+                "icon": "https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io/refs/heads/main/src/assets/jdbcicon.png"
             }
         ]
     },

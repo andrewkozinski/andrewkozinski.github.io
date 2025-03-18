@@ -7,6 +7,10 @@ import './ProjectPage.css'
 import { SiGithub } from "react-icons/si";
 import {Code2, FileText} from 'lucide-react';
 
+{/*This page will display a single project based on the url*/}
+{/*The project will be loaded from the projects.json file in the GitHub repository*/}
+{/*For reference: react-icons and lucide links:  https://react-icons.github.io/react-icons/icons/si/ https://lucide.dev/icons/*/}
+
 const ProjectPage = () => {
 
   let params = useParams();

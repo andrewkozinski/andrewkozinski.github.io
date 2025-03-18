@@ -147,7 +147,7 @@
     {
         "pageName": "pokemon-app",
         "title": "Pokemon Search App",
-        "projImg": ["https://i.imgur.com/IpJnjQn.png"],
+        "projImg": ["https://i.imgur.com/IpJnjQn.png", "https://i.imgur.com/LCPsppz.png", "https://i.imgur.com/Af9aZv7.png"],
         "previewImg": "https://i.imgur.com/1CdMiG0.png",
         "projLink": "https://github.com/andrewkozinski/pokemon-search-app",
         "projDescription": "A simple app that allows users to search for a Pokemon and view its stats. Uses the PokeAPI.",

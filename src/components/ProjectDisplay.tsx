@@ -20,7 +20,7 @@ const ProjectDisplay = (project: Project) => {
                 {/*<p style={{ paddingLeft: '8px', paddingRight: '8px' }}>{project.technologiesUsed}</p> */}
                 <div className="proj-languages" style={{ display: 'flex', marginLeft: '10px', gap: '3px' }}>
                     {project.technologyDetails.map((tech) => {
-                        return <img src={tech.icon} height="35px" width="35px" />;
+                        return <img title={tech.name} src={tech.icon} height="35px" width="35px" />;
                     })}
                 </div>
             </div>

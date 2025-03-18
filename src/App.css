@@ -596,3 +596,8 @@ transform: scale(1.1);
   }
 
 }
+
+.proj-languages img:hover{
+  background-color: #958831;
+  transform: scale(1.1);
+}

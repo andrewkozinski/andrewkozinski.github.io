@@ -73,7 +73,14 @@ const ProjectPage = () => {
                           <FileText style={{ marginRight: '8px' }} />
                           Project Description
                         </h2>
-                        <p>{currentProject?.projDescription}</p>
+                        <p>
+                          {currentProject?.projDescription.split('\n').map((line, index) => (
+                            <span key={index}>
+                              {line}
+                              <br />
+                            </span>
+                          ))}
+                        </p>
                       </div>
 
                       <div className="project-details-container">

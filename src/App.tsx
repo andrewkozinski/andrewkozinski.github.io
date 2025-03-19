@@ -24,7 +24,7 @@ function App() {
   const loadProjects = async () => {
     const response = await fetch('https://raw.githubusercontent.com/andrewkozinski/andrewkozinski.github.io/main/projects.json');
     const data = await response.json();
-    console.log(data);
+    //console.log(data);
     setProjects(data);
   }
 

@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './ProjectGallery.css';
 
 interface ProjectGalleryProps {
@@ -25,6 +25,24 @@ const ProjectGallery = ({ images }: ProjectGalleryProps) => {
     const closeModal = () => {
         setIsModalOpen(false);
     }
+
+    {/*Handle left or right arrow key presses. These will change the currently displayed image in the gallery*/}
+    useEffect(() => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.key === 'ArrowLeft') {
+                handlePrevClick();
+            } else if (event.key === 'ArrowRight') {
+                handleNextClick();
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, [images]);
+
 
     return (
         <div className="project-gallery">

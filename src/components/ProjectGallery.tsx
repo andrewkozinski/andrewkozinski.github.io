@@ -8,6 +8,7 @@ interface ProjectGalleryProps {
 
 const ProjectGallery = ({ images }: ProjectGalleryProps) => {
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handlePrevClick = () => {
         setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
@@ -17,6 +18,14 @@ const ProjectGallery = ({ images }: ProjectGalleryProps) => {
         setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
     };
 
+    const openModal = () => {
+        setIsModalOpen(true);
+    }
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    }
+
     return (
         <div className="project-gallery">
             <div className="gallery-controls">
@@ -24,7 +33,7 @@ const ProjectGallery = ({ images }: ProjectGalleryProps) => {
                     <ChevronLeft />
                 </button>
                 <div className="gallery-image">
-                    <div className="gallery-image-container">
+                    <div className="gallery-image-container" onClick={openModal}>
                         <img src={images[currentIndex]} alt={`Screenshot ${currentIndex + 1}`} />
                     </div>
                 </div>
@@ -43,6 +52,19 @@ const ProjectGallery = ({ images }: ProjectGalleryProps) => {
                     </button>
                 ))}
             </div>
+
+            {/*Open the image on click*/}
+            {isModalOpen && (
+                <div className="modal" onClick={closeModal}>
+                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                        <button className="close-button" onClick={closeModal}>
+                            &times;
+                        </button>
+                        <img src={images[currentIndex]} alt={`Full Screenshot ${currentIndex + 1}`} />
+                    </div>
+                </div>
+            )}
+
         </div>
     );
 }

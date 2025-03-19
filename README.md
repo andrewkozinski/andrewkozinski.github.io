@@ -24,7 +24,7 @@ Contact Me Page
 
 Resume Page
 
-![Resume]([https://i.imgur.com/bzR6EnW.png](https://i.imgur.com/Y4vDpxG.png))
+![Resume](https://i.imgur.com/Y4vDpxG.png)
 
 ## Technologies Used
 

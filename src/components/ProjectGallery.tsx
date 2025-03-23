@@ -7,9 +7,11 @@ interface ProjectGalleryProps {
 }
 
 const ProjectGallery = ({ images }: ProjectGalleryProps) => {
+    //state variables
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
+    //prevClick and nextClick functions to change the currently displayed image in the gallery
     const handlePrevClick = () => {
         setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
     };
@@ -18,6 +20,7 @@ const ProjectGallery = ({ images }: ProjectGalleryProps) => {
         setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
     };
 
+    //Open and close modal functions
     const openModal = () => {
         setIsModalOpen(true);
     }

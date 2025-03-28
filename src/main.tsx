@@ -9,6 +9,7 @@ import ContactMe from './routes/ContactMe.tsx'
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ProjectPage from './routes/ProjectPage.tsx'
+import AboutMe from './routes/AboutMe.tsx';
 
 const RedirectHandler = () => {
   const navigate = useNavigate();
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')!).render(
       <RedirectHandler />
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects/>} />
         <Route path="/projects/:projname" element={<ProjectPage/>}/>

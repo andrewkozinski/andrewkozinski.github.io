@@ -18,6 +18,7 @@ const ProjectPage = () => {
   let params = useParams();
   //console.log(params);
 
+  //Set the pages favicon
   setFavicon(Favicon);
 
   //const [projects, setProjects] = useState<Project[]>([]);
@@ -36,6 +37,7 @@ const ProjectPage = () => {
       return;
     }
     setCurrentProject(project);
+    //set the pages title to the project title
     setTitle(project.title + " - Andrew Kozinski");
   }
 

@@ -6,6 +6,8 @@ import ProjectGallery from "../components/ProjectGallery";
 import './ProjectPage.css'
 import { SiGithub } from "react-icons/si";
 import {Code2, FileText} from 'lucide-react';
+import { setFavicon, setTitle } from "../funcs";
+import Favicon from "../resources/images/documenticon.png";
 
 {/*This page will display a single project based on the url*/}
 {/*The project will be loaded from the projects.json file in the GitHub repository*/}
@@ -15,6 +17,8 @@ const ProjectPage = () => {
 
   let params = useParams();
   //console.log(params);
+
+  setFavicon(Favicon);
 
   //const [projects, setProjects] = useState<Project[]>([]);
   const [currentProject, setCurrentProject] = useState<Project | null>(null);
@@ -32,6 +36,7 @@ const ProjectPage = () => {
       return;
     }
     setCurrentProject(project);
+    setTitle(project.title + " - Andrew Kozinski");
   }
 
   useEffect(() => {

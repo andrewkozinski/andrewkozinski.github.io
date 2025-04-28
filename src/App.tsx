@@ -127,6 +127,9 @@ function App() {
               <Link to="/resume">Resume</Link>
             </p>
             <p>
+              <a href="https://github.com/andrewkozinski" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </p>
+            <p>
               <a href="https://www.linkedin.com/in/andrew-kozinski-392613252/" target="_blank" rel="noopener noreferrer">LinkedIn </a>
             </p>
             <p>

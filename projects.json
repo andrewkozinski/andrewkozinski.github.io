@@ -1,5 +1,38 @@
 [
     {
+        "pageName": "buffai",
+        "title": "BuffAIFinance",
+        "projImg": ["https://i.imgur.com/4jktPv3.png", "https://i.imgur.com/dwiPbja.png", "https://i.imgur.com/yA2PQ3P.png", "", "", "", "https://i.imgur.com/KUMLdlH.png", "https://i.imgur.com/aAhFRPq.png", "https://i.imgur.com/4uhsu43.png", "https://i.imgur.com/o82moEk.png", "https://i.imgur.com/ufFgvQ1.png", "https://i.imgur.com/bo7OXlI.png"],
+        "previewImg": "https://i.imgur.com/MMAhHDc.png",
+        "projLink": "https://github.com/Verdenroz/buff-ai",
+        "projDescription": "BuffAI is your personal assistant that aims to help you make better decisions in trading and market research. You can see Trump's tweets plotted along the price of any stock. You can also here a TTS of the tweet content as well (originally this was intended to be Trump's voice but is against TOS of ElevenLabs). Also talk to Buff, an agentic AI chatbot that is able to interact with tools for up to date information.",
+        "technologiesUsed": 5,
+        "technologyList": ["FastAPI", "NextJS", "Amazon S3", "Redis", "Google Gemini API", "ElevenLabs API", "Tailwind CSS"],
+        "technologyDetails": 
+        [
+            {
+                "name": "FastAPI",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
+            },
+            {
+                "name": "NextJS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+            },
+            {
+                "name": "Amazon S3",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+            },
+            {
+                "name": "Redis",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+            }
+        ]
+    },
+    {
         "pageName": "deltarune-menu",
         "title": "Deltarune Main Menu Recreation",
         "projImg": ["https://github.com/andrewkozinski/andrewkozinski.github.io/blob/main/src/assets/deltarunemainmenuprojectch1tochcomplete.gif?raw=true", "https://i.imgur.com/U6MSqJx.png", "https://i.imgur.com/9oDIc59.png", "https://i.imgur.com/4ccay8W.png", "https://i.imgur.com/bzR6EnW.png"],

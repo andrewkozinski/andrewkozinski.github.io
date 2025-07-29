@@ -8,6 +8,7 @@ import { SiGithub } from "react-icons/si";
 import {Code2, FileText} from 'lucide-react';
 import { setFavicon, setTitle } from "../funcs";
 import Favicon from "../resources/images/documenticon.png";
+import ReactMarkdown from 'react-markdown';
 
 {/*This page will display a single project based on the url*/}
 {/*The project will be loaded from the projects.json file in the GitHub repository*/}
@@ -80,14 +81,9 @@ const ProjectPage = () => {
                           <FileText style={{ marginRight: '8px' }} />
                           Project Description
                         </h2>
-                        <p>
-                          {currentProject?.projDescription.split('\n').map((line, index) => (
-                            <span key={index}>
-                              {line}
-                              <br />
-                            </span>
-                          ))}
-                        </p>
+                        <div className="project-description">
+                          <ReactMarkdown>{currentProject?.projDescription}</ReactMarkdown>
+                        </div>
                       </div>
 
                       <div className="project-details-container">
